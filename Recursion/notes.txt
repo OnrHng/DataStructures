@@ -1,0 +1,22 @@
+RECURSION
+
+    Tekrar eden yapilarda kullanilir. 
+
+    recursive call -> sonsuz donguye giren cagrisimdir
+
+    base call -> recursion i sonlandiracak olan temel cagrisimdir. buununla recursion dan cikilir.
+
+
+ne zaman recursion ne zaman for
+
+    recursion
+        brokoli ornegi, brokoli nin en kucuk parcasi ile tamami ayni, yani bir brokoli en kucuk parcalarin yenilenmesi ile olusur
+
+
+    for
+        recursion arka yapisinda stack data structure kullanir ve memory den fazla yer kaplar. bunlardan dolayi for kullanmak bu durumda
+        daha avantajlidir.
+
+
+
+Notes are Turkish , I will translate them in English later.
