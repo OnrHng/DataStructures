@@ -3,13 +3,11 @@ package Recursion;
 public class CountHi {
 
     /*
+        Given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.
 
-Given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.
-
-
-countHi("xxhixx") → 1
-countHi("xhixhix") → 2
-countHi("hi") → 1
+        countHi("xxhixx") → 1
+        countHi("xhixhix") → 2
+        countHi("hi") → 1
     */
 
     public static void main(String[] args) {
@@ -21,5 +19,5 @@ countHi("hi") → 1
               
         if(str.substring(0, 2).equals("hi")) return 1 + countHi(str.substring(1));
         else return 0 + countHi(str.substring(1));
-      }
+    }
 }
