@@ -1,0 +1,35 @@
+TREEs
+
+    Tree lerde basta bulunan node root olarak adlandiirlir. ve Kendisine bagli istenildigi karar baska nodeler olarbirli
+
+    class Tree {
+        T value;
+        List<Node> anotherNodes;
+    }
+
+
+
+BINARY TREE
+
+    binary tree data structure hierarchy data structurelar icin kullanilabilir. Binary Tree lerde ise sadece iki subchild olabilir left ve right
+    T ile generic yapida istenilen bir turde value tasinabilir.
+
+    class binaryTree{
+        T value;
+        BinaryTree left;
+        BinaryTree right;
+    } 
+
+
+    BinaryTree Turleri
+        complete BinaryTree
+        perfect BinaryTree => leaf ler haric diger butun rootlarin iki tane child olmasi durumudur. 
+        full BinaryTree
+        balance BinaryTree => leaf lerin yaprak larin seviyeleri en fazla arasindaki mesafe 1 olamalidir.
+
+
+    BinaryTree de traverse yontemleri
+
+        inordertraverse => left root rigth
+        pre => root left right
+        post => left rigth root
